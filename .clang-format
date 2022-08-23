@@ -1,0 +1,29 @@
+IndentWidth: 2
+---
+Language: Cpp
+IndentAccessModifiers: true
+ColumnLimit: 110
+AllowShortIfStatementsOnASingleLine: Never
+SortIncludes: Never
+PointerAlignment: Left
+SpaceBeforeParens: Never
+SpacesInParentheses: true
+AllowShortFunctionsOnASingleLine: Empty
+SpacesInAngles: Always
+SpacesInContainerLiterals: true
+SpacesInSquareBrackets: true
+ContinuationIndentWidth: 2
+IndentPPDirectives: BeforeHash
+UseTab: Never
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterNamespace: false
+  AfterClass: true
+  AfterCaseLabel: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterStruct: true
+  BeforeElse: true
+---
+
