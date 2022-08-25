@@ -12,8 +12,10 @@ AllowShortFunctionsOnASingleLine: Empty
 SpacesInAngles: Always
 SpacesInContainerLiterals: true
 SpacesInSquareBrackets: true
+SpaceAfterTemplateKeyword: false
 ContinuationIndentWidth: 2
 IndentPPDirectives: BeforeHash
+IndentCaseLabels: true
 UseTab: Never
 BreakBeforeBraces: Custom
 BraceWrapping:
@@ -25,5 +27,6 @@ BraceWrapping:
   AfterFunction: true
   AfterStruct: true
   BeforeElse: true
+  SplitEmptyFunction: false
 ---
 
